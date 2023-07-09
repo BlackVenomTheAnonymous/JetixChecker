@@ -1,0 +1,271 @@
+{
+  "id": "ppage_1NIuSABftNFSSA1AHgRXwW6K",
+  "object": "checkout.session",
+  "account_settings": {
+    "account_id": "acct_1Hrm6LBftNFSSA1A",
+    "assets": {
+      "icon": "https://d1wqzb5bdbcre6.cloudfront.net/7b0820c381c469b3eb5ffceecbc75a45fc904231ae7c029d578a0c9cdd041b3f/68747470733a2f2f66696c65732e7374726970652e636f6d2f66696c65732f4d44423859574e6a6446387853484a744e6b78435a6e524f526c4e545154464266475a6662476c325a56396a4e6b466e5445314a4e6e68796344633555454930656b73774d47527752564530306d4f4c367944624a",
+      "logo": "https://d1wqzb5bdbcre6.cloudfront.net/fa629d71155552ac703742f28821fdca10c85553123d8bef89829580cb68ff31/68747470733a2f2f66696c65732e7374726970652e636f6d2f66696c65732f4d44423859574e6a6446387853484a744e6b78435a6e524f526c4e545154464266475a6662476c325a56394d5356466b5a6c426f63487054636b4a474e576c4c4d4770774e6b6c3254324d3030544c356433673053",
+      "use_logo": true
+    },
+    "branding": {
+      "background_color": "#2e2e2e",
+      "border_style": "default",
+      "button_color": "#c8ff88",
+      "font_family": "default"
+    },
+    "country": "US",
+    "display_name": "Buff Technologies, Inc.",
+    "privacy_policy_url": "https://www.buff.game/buff-privacy-policy/",
+    "specified_commercial_transactions_act_url": null,
+    "statement_descriptor": "BUFF.GAME",
+    "support_email": "contact-us@buff.game",
+    "support_phone": "+13022613775",
+    "support_url": "https://buff.game",
+    "terms_of_service_url": "https://www.buff.game/website-terms-of-use/"
+  },
+  "beta_versions": null,
+  "billing_address_collection": null,
+  "blocked_billing_address_countries": [],
+  "cancel_url": "https://buff.game/spin-wheel-payment-fail",
+  "card_brands": {
+    "accel": false,
+    "amex": true,
+    "carnet": false,
+    "cartes_bancaires": false,
+    "diners": true,
+    "discover": true,
+    "eftpos_au": false,
+    "elo": false,
+    "girocard": false,
+    "jcb": true,
+    "mastercard": true,
+    "nyce": false,
+    "pulse": false,
+    "rupay": false,
+    "star": false,
+    "unionpay": true,
+    "visa": true
+  },
+  "client_reference_id": null,
+  "consent": null,
+  "consent_collection": null,
+  "cross_sell_group": null,
+  "currency": "usd",
+  "custom_fields": [],
+  "custom_text": {
+    "shipping_address": null,
+    "submit": null
+  },
+  "customer": null,
+  "customer_email": null,
+  "display_consent_collection_promotions": false,
+  "eid": "NA",
+  "email_collection": "always",
+  "enabled_third_party_wallets": [
+    {
+      "id": "APPLE_PAY",
+      "apple_pay": {
+        "required_version": 2
+      },
+      "carousel_enabled": false,
+      "enabled": true
+    },
+    {
+      "id": "GOOGLE_PAY",
+      "carousel_enabled": false,
+      "enabled": true,
+      "google_pay": {
+        "id": "GOOGLE_PAY",
+        "version_major": 2,
+        "version_minor": 0
+      }
+    },
+    {
+      "id": "META_PAY",
+      "carousel_enabled": false,
+      "enabled": false
+    },
+    {
+      "id": "LINK_BUTTON",
+      "carousel_enabled": false,
+      "enabled": true
+    }
+  ],
+  "enforcement_mode": "open",
+  "feature_flags": {
+    "checkout_apple_pay_account_merch_id": true,
+    "checkout_apple_pay_coupon_code_params": true,
+    "checkout_disable_email_overwriting": true,
+    "checkout_enable_apple_pay_tax_billing_address_collection_only_by_session": true,
+    "checkout_enable_overflow_rotating_icon": true,
+    "checkout_enable_store_last_used_payment_method_name": true,
+    "checkout_id_bank_transfer_enable_mandiri": true,
+    "checkout_jp_specified_commercial_transactions_act": true,
+    "checkout_link_backup_payment_method": true,
+    "checkout_link_enable_email_OTP_fallback": true,
+    "checkout_link_instant_debits_create_link_account_session_on_instantiation": true,
+    "checkout_link_local_storage_login_enabled": true,
+    "checkout_link_local_storage_login_on_custom_domains_enabled": true,
+    "checkout_link_passthrough_mode_enabled": true,
+    "checkout_link_wallet_button": true,
+    "checkout_passthrough_coupon": true,
+    "checkout_pay_button_copy_enabled": true,
+    "checkout_phone_number_country_select_enabled": true,
+    "checkout_pm_reuse_enabled": true,
+    "checkout_send_additional_confirm_parameters": true,
+    "checkout_validate_third_party_wallet_shipping_address": true
+  },
+  "geocoding": {
+    "country_code": "BD",
+    "region_name": null
+  },
+  "has_dynamic_tax_rates": false,
+  "init_checksum": "58HenWmTQR2qL5F2qim9v3LxFoPPlS87",
+  "klarna_info": null,
+  "konbini_confirmation_number": null,
+  "line_item_group": {
+    "currency": "usd",
+    "discount_amounts": [],
+    "line_items": [
+      {
+        "id": "li_1NIuSABftNFSSA1AK4e8NDac",
+        "object": "item",
+        "adjustable_quantity": null,
+        "cross_sell_from": null,
+        "description": null,
+        "discount_amounts": [],
+        "images": null,
+        "name": "Buff Spin Collect Tickets",
+        "price": {
+          "id": "price_1Kb6NBBftNFSSA1AzAO5m6Km",
+          "object": "price",
+          "active": true,
+          "billing_scheme": "per_unit",
+          "currency": "usd",
+          "custom_unit_amount": null,
+          "livemode": true,
+          "product": {
+            "id": "prod_LHfi3URnX7BIiZ",
+            "object": "product",
+            "active": true,
+            "addons": null,
+            "attributes": [],
+            "description": null,
+            "images": [],
+            "livemode": true,
+            "name": "Buff Spin Collect Tickets",
+            "unit_label": null,
+            "url": null
+          },
+          "recurring": null,
+          "tax_behavior": "unspecified",
+          "tiers_mode": null,
+          "transform_quantity": null,
+          "type": "one_time",
+          "unit_amount": 199,
+          "unit_amount_decimal": "199"
+        },
+        "quantity": 1,
+        "subtotal": 199,
+        "tax_amounts": [],
+        "total": 199,
+        "unit_amount_override": null
+      }
+    ],
+    "localized_prices_metas": null,
+    "presentment_exchange_rate_meta": null,
+    "shipping_rate": null,
+    "subtotal": 199,
+    "tax_amounts": [],
+    "total": 199
+  },
+  "link_info": null,
+  "link_settings": {
+    "consumer_found": null
+  },
+  "livemode": true,
+  "locale": null,
+  "lpm_promotions": null,
+  "mode": "payment",
+  "ordered_payment_method_types": [
+    "card",
+    "apple_pay",
+    "google_pay"
+  ],
+  "payment_intent": null,
+  "payment_method_collection": "always",
+  "payment_method_options": null,
+  "payment_method_specs": [
+    {
+      "async": false,
+      "fields": [],
+      "type": "card"
+    }
+  ],
+  "payment_method_types": [
+    "card"
+  ],
+  "phone_number_collection": {
+    "enabled": false
+  },
+  "policies": {
+    "contacts": {
+      "display_email": true,
+      "display_phone": true,
+      "display_url": true,
+      "enabled": false
+    },
+    "legal": {
+      "agreement_required": false,
+      "enabled": false
+    },
+    "returns": {
+      "custom_message": null,
+      "enabled": false,
+      "exceptions_apply": false,
+      "exchanges_accepted": false,
+      "fee_required": null,
+      "fee_type": null,
+      "logistics": [],
+      "policy_url": null,
+      "refunds_accepted": null,
+      "returns_accepted": null,
+      "window": null,
+      "window_start": null
+    }
+  },
+  "prefilled": null,
+  "session_id": "cs_live_a1Uuhh4xzj6ezBSNKMKSdeiWTJWdutntSVe8psrTb8zHGzqJVEy365v69B",
+  "setup_future_usage": null,
+  "setup_future_usage_for_payment_method_type": {},
+  "setup_intent": null,
+  "shipping_address_collection": null,
+  "shipping_options": [],
+  "shipping_rate": null,
+  "site_key": "ec637546-e9b8-447a-ab81-b5fb6d228ab8",
+  "state": "active",
+  "submit_type": null,
+  "subscription_data": null,
+  "subscription_settings": null,
+  "success_url": "https://buff.game/spin-wheel-payment-fail",
+  "tax_context": {
+    "automatic_tax_address_source": null,
+    "automatic_tax_enabled": false,
+    "automatic_tax_error": null,
+    "automatic_tax_exempt": "none",
+    "customer_tax_country": null,
+    "dynamic_tax_enabled": false,
+    "has_maximum_tax_ids": false,
+    "tax_id_collection_enabled": false
+  },
+  "tax_meta": {
+    "computation_type": "manual",
+    "customer_tax_exempt": "none",
+    "error_reason": null,
+    "status": "complete"
+  },
+  "url": null,
+  "use_payment_methods": true,
+  "utm_codes": null
+}

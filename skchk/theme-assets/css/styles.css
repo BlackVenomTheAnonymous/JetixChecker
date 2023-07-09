@@ -1,0 +1,123 @@
+h5,
+h4 {
+    color: white;
+}
+.text-center {
+    background-color: #0e1d2c;
+    border: 1px solid #525252;
+    border-radius: 5px;
+}
+textarea {
+    color: white;
+    resize: none;
+}
+
+.text-center::placeholder {
+    color: grey;
+}
+.text-center:focus {
+    background-color: #0e1d2c;
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+    background-color: #112132;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #2e4964;
+}
+.lista_reprovadass {
+    color: #747474;
+}
+.card-body {
+    background-color: #1c3044;
+    border-radius: 5px;
+}
+.text-center {
+    border: none;
+}
+.badge-success,
+.btn-success {
+    background-color: #ffe74c;
+    color: black;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #c9b63c;
+    border: none;
+    color: black;
+    shadow: hidden;
+}
+.aprovadas {
+    background-color: #35a7ff;
+    color: black;
+}
+.badge-danger {
+    background-color: #ff5964;
+    color: black;
+}
+.html body .content .content-wrapper {
+    background-color: #112132;
+}
+
+.btn-bg-gradient {
+    background-image: linear-gradient(to right, #ff8008 0%, #ffc837 51%, #ff8008 100%);
+    margin: 5px;
+    width: 49%;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    -webkit-box-shadow: 0 0 0 0 #514a9d;
+}
+
+.btn-bg-gradient:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-bg-gradient-x {
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%);
+    margin: 5px;
+    padding: 12px 45px;
+
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    -webkit-box-shadow: 0 0 0 0 #514a9d;
+}
+
+.btn-bg-gradient-x:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.statusbar {
+    height: 320px;
+    padding-top: 50px;
+}
+.hr-statusbar {
+    border: none;
+    height: 1px;
+    background-color: #3c5c7c;
+}
+
+option {
+    /* Whatever color  you want */
+    background-color: #112132;
+    color: white;
+}
